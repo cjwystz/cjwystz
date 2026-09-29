@@ -1,33 +1,33 @@
-### 您好！！！  我是陈嘉伟
+### Welcome！  我是陈嘉伟
 
 > **AI Infra / 大模型分布式训推系统 / 显存与负载调度优化**
 >
 > 2023-2027  北京科技大学 信息安全本科在读  雅思6.5(6)
 > 清程极智AI Infra实习生 / FlagOS 开源社区贡献者 / 昇腾、真武千卡训推经验
-> 福建、广东有租房租店铺需求      +v cjwystz
-> 福建有厨房设备、政府工程设计需求 +v
+> 福建漳州7套旺铺招租                      
+> 福建广东浙江接厨房设备、承包工程需求              
 
 ---
 
 ### 📄 Research and Publication
 
-- **面向通用大模型训练的异构Packing调度策略**
+- **面向通用大模型训练的异构Packing调度策略**| 清程极智×北京科技大学
 
-  - MLSys2027   | 预计2026年10月投稿
+  - MLSys2027 co-first author | 预计2026.10月投稿 
   - 提出 Packing time-cost 模型与蛇形发牌调度策略；设计 Chunk-CE / Chunk-Linear 显存优化算子；在异构集群上完成验证。
 
-- **形式化证明引导的多模态几何推理框架**
+- **形式化证明引导的多模态几何推理框架**| 上海ailab
 
-  - TMLR2027四作 | Under review 开源于 [arXiv:2601.05073](https://arxiv.org/abs/2601.05073)
+  - TMLR2027 co-author | Under review（首轮审稿意见积极）| 开源于 [arXiv:2601.05073](https://arxiv.org/abs/2601.05073) 
   - 机器之心引用于https://mp.weixin.qq.com/s/XpnngRuhvX1pgOcT63VTFw
   - 构建 GeoGoal 基准：将形式化证明骨架拆为可自动验证的数值子目标序列，提出 Skeleton Rate 过程级指标。
   - 提出 SGVR 子目标可验证奖励框架，以稠密过程奖励替代结果奖励，GRPO 训练后几何 +9.7%，泛化通用数学 +8.0%。
 
-- **面向消费级平台的复杂场景生成：基于RAG优化的文生图系统**
+- **面向消费级平台的复杂场景生成：基于RAG优化的文生图系统**｜ 清华大学 BNRist
 
-  - WISE2025 Workshop 三作 ｜ published ｜ [GitHub](https://github.com/Dadada66666/T2I)
+  - WISE2025 Workshop co-author ｜ published ｜ [GitHub](https://github.com/Dadada66666/T2I) 
   - 提出RAG前置于Prompt优化阶段的轻量文生图增强框架：不动 T2I、单次迭代，解决小参数 LLM 面对隐式知识的prompt失配问题。
-  - 设计Tavily实时广搜 + BGE-m3向量化 + ChromaDB混合检索的两阶段pipeline；基于ollama + ComfyUI端到端落地，三模型交叉评分较仅 LLM 改写平均提升 114%。
+  - 设计Tavily + BGE-m3 + ChromaDB混合检索的两阶段pipeline；基于ollama + ComfyUI端到端落地，评分较单 LLM 改写平均提升 114%。
 
 ---
 
