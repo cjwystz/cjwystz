@@ -41,7 +41,7 @@
 
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)** ⭐ 4k+
 
-  - 面向沐曦（MetaX）生态的大模型训练框架，贡献 Bug 修复、硬件适配与训练优化方法。
+  - 面向沐曦（MetaX）生态的flagos训练框架，贡献Bug fixed、硬件适配与训练框架优化method。
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
