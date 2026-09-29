@@ -1,9 +1,11 @@
-### 您好！！！  我是陈嘉伟
+### 您好！！！  我是陈嘉伟  
 
 > **AI Infra / 大模型分布式训推系统 / 显存与负载调度优化**
 >
-> 2023-2027  北京科技大学 信息安全本科在读  
+> 2023-2027  北京科技大学 信息安全本科在读  雅思6.5(6)
 > 清程极智AI Infra实习生 / FlagOS 开源社区贡献者 / 昇腾、真武千卡训推经验
+> 福建、广东有租房租店铺需求      +v cjwystz
+> 福建有厨房设备、政府工程设计需求 +v
 
 ---
 
@@ -22,9 +24,9 @@
 
 - **面向消费级平台的复杂场景生成：基于RAG优化的文生图系统**
 
-  - WISE2025 Workshop 三作 ｜ 已录用 ｜ [GitHub](https://github.com/Dadada66666/T2I)
-  - 提出RAG前置于Prompt优化阶段的轻量文生图增强框架：免训练、不改 T2I 模型、单次迭代，解决小参数 LLM 面对隐式知识的提示词失配问题。
-  - 设计Tavily实时广搜 + BGE-m3向量化 + ChromaDB混合检索精排的两阶段pipeline；基于ollama + ComfyUI端到端落地，三模型交叉评分较仅 LLM 改写平均提升 114%。
+  - WISE2025 Workshop 三作 ｜ published ｜ [GitHub](https://github.com/Dadada66666/T2I)
+  - 提出RAG前置于Prompt优化阶段的轻量文生图增强框架：不动 T2I、单次迭代，解决小参数 LLM 面对隐式知识的prompt失配问题。
+  - 设计Tavily实时广搜 + BGE-m3向量化 + ChromaDB混合检索的两阶段pipeline；基于ollama + ComfyUI端到端落地，三模型交叉评分较仅 LLM 改写平均提升 114%。
 
 ---
 
@@ -32,11 +34,11 @@
 
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)**（4k+ stars）
 
-  - 向metax生态下大模型训练框架贡献bug适配和一些训练优化method
+  - 在metax生态下大模型训练框架贡献bug适配和一些训练优化method
 
-- **zkLLM：面向大语言模型的零知识证明系统**
+- **zkLLM：面向大语言模型的零知识证明系统可视化**
 
-  - 复现 CCS 2024 zkLLM 开源框架；完成 CUDA 算子适配与推理可信审计可视化系统
+  - 复现 CCS 2024 zkLLM 开源框架；完成框架适配并搭建推理可信审计可视化系统
   - 国家计算机软件著作权：2025SR0617553
 
 ---
@@ -56,3 +58,4 @@
 
 - 邮箱：2451427796@qq.com
 - 电话：18659336708
+- 
