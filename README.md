@@ -21,7 +21,7 @@
 - **通用大模型训练的异构建模 Packing 调度策略** `清程极智 × 北京科技大学`
 
   - 🎯 **MLSys 2027** · **Co-first Author** · 预计 2026.10 投稿
-  - 设计 Packing time-cost 模型与蛇形发牌调度策略；设计 Chunk-CE / Chunk-Linear 显存优化算子；在流水线上完成验证，实现端到端**+20%**的吞吐提升
+  - 设计 Packing time-cost 模型与蛇形发牌调度策略；设计 Chunk-CE / Chunk-Linear 显存优化算子；基于以上等优化，实现端到端 **+20%** 的吞吐提升
 
 - **形式化证明引导的多模态几何推理框架** `上海人工智能实验室`
 
@@ -41,7 +41,7 @@
 
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)** ⭐ 4k+
 
-  - 面向沐曦（MetaX）生态的flagos训练框架，贡献Bug fixed、硬件适配与训练框架优化method。
+  - 面向沐曦（MetaX）生态的flagos训练框架，为te-fl、flagscale、megatron-fl贡献Bug fixed、硬件适配与训练框架优化method。
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
