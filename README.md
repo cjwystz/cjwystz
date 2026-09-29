@@ -25,7 +25,7 @@
 
 ### 💻 开源贡献
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)**（4k+ stars）
-  - 向大模型训练框架贡献bug适配和一些训练优化手段
+  - 向metax生态下大模型训练框架贡献bug适配和一些训练优化method
     
 - **zkLLM：面向大语言模型的零知识证明系统**
   - 复现 CCS 2024 zkLLM 开源框架；完成 CUDA 算子适配与推理可信审计可视化系统
@@ -39,7 +39,7 @@
 | 训练系统 | Megatron-LM, MindSpeed, FlagScale, FSDP, PyTorch |
 | 推理系统 | vLLM, vLLM-Ascend, SGlang |
 | 硬件平台 | 华为昇腾 910C, 沐曦 C550, 阿里真武 810E, NVIDIA A800/A100 |
-| 工具与环境 | 性能 Profiler, Docker, Ascend CL, AI 辅助编程 |
+| 工具与环境 | 性能 Profiler, Docker, Ascend CL, AI辅助编程 |
 
 ---
 
