@@ -32,8 +32,8 @@
 - **面向消费级平台的复杂场景生成：基于 RAG 优化的文生图系统** `清华大学 BNRist`
 
   - 🎯 **WISE 2025 Workshop** · Co-author · ✅ Published · 📎 [GitHub](https://github.com/Dadada66666/T2I)
-  - 提出 RAG 前置于 Prompt 优化阶段的轻量文生图增强框架：不改 T2I 模型、单次迭代，解决小参数 LLM 面对隐式知识的 Prompt 失配问题。
-  - 设计 Tavily + BGE-m3 + ChromaDB 混合检索的两阶段 Pipeline，基于 ollama + ComfyUI 端到端落地，评分较仅 LLM 改写平均提升 **114%**。
+  - 提出 RAG 前置 Prompt 优化阶段的文生图增强框架：不改T2I 模型、单次迭代，解决小参数 LLM 面对隐式知识的 Prompt 失配问题。
+  - 设计 Tavily + BGE-m3 + ChromaDB 混合检索的两阶段 Pipeline，基于ollama + ComfyUI落地，评分较仅 LLM 改写平均提升 **114%**。
 
 ---
 
