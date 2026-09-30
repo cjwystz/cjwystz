@@ -57,7 +57,7 @@
 | 训练系统 | Megatron-LM · MindSpeed · FlagScale · FSDP · PyTorch |
 | 推理系统 | vLLM · vLLM-Ascend · SGLang                          |
 | 硬件平台 | 华为昇腾 910C · 沐曦 C550 · 阿里真武 810E · NVIDIA A800/A100   |
-| 工具环境 | 性能 Profiler · Docker · Ascend CL · AI 辅助编程           |
+| 工具环境 | 性能 Profiler · Docker · AI 编程提效           |
 
 ---
 
