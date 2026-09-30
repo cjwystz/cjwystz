@@ -37,7 +37,7 @@
 
 ---
 
-### 💻 开源贡献
+### 💻 Contributions
 
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)** ⭐ 4k+
 
@@ -50,7 +50,7 @@
 
 ---
 
-### 🛠 技术栈
+### 🛠 Skills
 
 | 分类   | 技术栈                                                  |
 | ---- | ---------------------------------------------------- |
