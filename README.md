@@ -6,7 +6,7 @@
 > 💼 清程极智 AI Infra 实习生 · FlagOS 开源社区贡献者  
 > 🖥️ 昇腾 910C / 沐曦 C550 / 真武 810E 千卡训推经验  
 > 🏪 福建漳州厦门城区旺铺招租(个人房源，非中介)，福建/广东/浙江接厨房设备与承包工程需求，欢迎联系🛰️_cjwystz
-> https://cjwystz.github.io
+> 个人主页 https://cjwystz.github.io
 
 ---
 
