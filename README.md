@@ -44,7 +44,7 @@
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
   **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复。<br>
-  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构适配与扩展加载修复（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)、[PR #135](https://github.com/flagos-ai/TransformerEngine-FL/pull/135)）。<br>
+  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构与加载路径适配（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)，已合并）。<br>
   **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)，已合并）。<br>
   **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)，已合并）。<br>
   **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销。<br>
