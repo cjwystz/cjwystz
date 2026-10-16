@@ -41,14 +41,13 @@
 
 ### 💻 Contributions
 
-- **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)** ⭐ 4k+
+- **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
-  - 面向沐曦（MetaX）生态的flagos训练框架，为te-fl、flagscale、megatron-fl贡献Bug fixed、硬件适配与训练框架优化method。
+  - FlagScale / Megatron-FL：沐曦硬件适配、训练框架优化与 Bug 修复。
 
-- **[Hugging Face PEFT](https://github.com/huggingface/peft)**
+- **[Hugging Face](https://github.com/huggingface/peft)**
 
-  - 发现并复现 LoRA-FA 优化器 `step(closure)` 的梯度上下文错误，报告 issue 并在维护者批准后提交修复与回归测试；PR 已于 2026-10-16 合并，线上 CI 全部通过。
-  - [技术博客](https://cjwystz.github.io/blog/2026/peft-lorafa-closure-grad/)
+  - PEFT / LoRA-FA：优化器 `step(closure)` 梯度上下文修复与回归测试。
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
