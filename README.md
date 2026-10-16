@@ -3,7 +3,7 @@
 > **AI Infra / 大模型分布式训推系统 / 显存与负载调度优化**
 > 
 > 🎓 2023-2027 · 北京科技大学 · 信息安全本科 · 雅思6.5(6)  
-> 💼 清程极智 AI Infra 实习生 · FlagOS 开源社区贡献者  
+> 💼 清程极智 AI Infra 实习生 · FlagOS / Hugging Face PEFT 开源贡献者  
 > 🖥️ 昇腾 910C / 沐曦 C550 / 真武 810E 千卡训推经验  
 > 🏪 福建漳州厦门城区旺铺招租(个人房源，非中介)，福建/广东/浙江接厨房设备与承包工程需求，欢迎联系🛰️_cjwystz
 >
@@ -44,6 +44,11 @@
 - **[FlagOS / FlagScale](https://github.com/FlagOpen/FlagScale)** ⭐ 4k+
 
   - 面向沐曦（MetaX）生态的flagos训练框架，为te-fl、flagscale、megatron-fl贡献Bug fixed、硬件适配与训练框架优化method。
+
+- **[Hugging Face PEFT](https://github.com/huggingface/peft)**
+
+  - 发现并复现 LoRA-FA 优化器 `step(closure)` 的梯度上下文错误，报告 issue 并在维护者批准后提交修复与回归测试；PR 已于 2026-10-16 合并，线上 CI 全部通过。
+  - [技术博客](https://cjwystz.github.io/blog/2026/peft-lorafa-closure-grad/)
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
