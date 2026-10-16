@@ -54,7 +54,7 @@
 
 - **[Hugging Face](https://github.com/huggingface/peft)**
 
-  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试。
+  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试（[PR #3966](https://github.com/huggingface/peft/pull/3966)）。
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
