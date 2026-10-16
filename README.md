@@ -44,13 +44,13 @@
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
   **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复。<br>
-  **TransformerEngine-FL**：适配 TE 2.13+ 包结构与加载路径（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)，已合并）。<br>
-  **TransformerEngine-FL**：修复 MetaX 扩展加载后的模块别名恢复，兼容 PyTorch 2.10 构建（[PR #135](https://github.com/flagos-ai/TransformerEngine-FL/pull/135)）。<br>
+  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构适配与扩展加载修复（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)、[PR #135](https://github.com/flagos-ai/TransformerEngine-FL/pull/135)）。<br>
   **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)，已合并）。<br>
   **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)，已合并）。<br>
   **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销。<br>
   **TP overlap**：沐曦平台通信与计算重叠的适配及修复。<br>
-  **多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法。
+  **FlagScale 多模态 packing**：实现 Qwen3.5 **Next Fit** 序列装箱、多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）。<br>
+  **TE 多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法。
 
 - **[Hugging Face](https://github.com/huggingface/peft)**
 
