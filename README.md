@@ -43,22 +43,22 @@
 
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
-  **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复。<br>
-  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构与加载路径适配（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)）。<br>
-  **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）。<br>
-  **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）。<br>
-  **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）。<br>
-  **TP overlap**：沐曦平台通信与计算重叠的适配及修复。<br>
-  **FlagScale 多模态 packing**：实现 Qwen3.5 **Next Fit** 序列装箱、多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）。<br>
-  **TE 多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法。
+  **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复<br>
+  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构与加载路径适配（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)）<br>
+  **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）<br>
+  **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）<br>
+  **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）<br>
+  **TP overlap**：沐曦平台通信与计算重叠的适配及修复<br>
+  **FlagScale 多模态 packing**：实现 Qwen3.5 **Next Fit** 序列装箱、多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）<br>
+  **TE 多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法
 
 - **[Hugging Face](https://github.com/huggingface/peft)**
 
-  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试（[PR #3966](https://github.com/huggingface/peft/pull/3966)）。
+  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试（[PR #3966](https://github.com/huggingface/peft/pull/3966)）
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
-  - 复现 CCS 2024 zkLLM 开源框架，完成框架适配并搭建推理可信审计可视化系统。
+  - 复现 CCS 2024 zkLLM 开源框架，完成框架适配并搭建推理可信审计可视化系统
   - 📜 国家计算机软件著作权：2025SR0617553
 
 ---
