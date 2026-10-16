@@ -43,17 +43,17 @@
 
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
-  - FlagScale / Megatron-FL / TransformerEngine-FL：沐曦硬件适配、训练框架优化与 Bug 修复。
-  - TransformerEngine-FL：适配 TE 2.13+ 包结构与加载路径（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)，已合并）。
-  - FlagScale：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)，已合并）。
-  - Megatron-LM-FL：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)，已合并）。
-  - Chunk CE：实现分块词表并行交叉熵，降低临时显存开销（[PR #99](https://github.com/flagos-ai/Megatron-LM-FL/pull/99)，已提交，关闭未合并）。
-  - TP overlap：沐曦平台通信与计算重叠的适配及修复。
-  - TE 多模态数据 packing：实现 BFD（Best Fit Decreasing）与 Next Fit 装箱算法。
+  **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复。<br>
+  **TransformerEngine-FL**：适配 TE 2.13+ 包结构与加载路径（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)，已合并）。<br>
+  **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)，已合并）。<br>
+  **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)，已合并）。<br>
+  **Chunk CE**：我们实现并提交分块词表并行交叉熵，降低临时显存开销（[PR #99](https://github.com/flagos-ai/Megatron-LM-FL/pull/99)）；后续由智源方面完成修复，原 PR 关闭，未直接合并。<br>
+  **TP overlap**：沐曦平台通信与计算重叠的适配及修复。<br>
+  **多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法。
 
 - **[Hugging Face](https://github.com/huggingface/peft)**
 
-  - PEFT / LoRA-FA：优化器 `step(closure)` 梯度上下文修复与回归测试。
+  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试。
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
