@@ -48,7 +48,7 @@
   **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）<br>
   **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）<br>
   **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）<br>
-  **TP overlap**：沐曦平台通信与计算重叠的适配及修复<br>
+  **TP overlap**：沐曦平台通信与计算重叠的适配及修复（[PR #139](https://github.com/flagos-ai/TransformerEngine-FL/pull/139)）<br>
   **FlagScale 多模态 packing**：实现 Qwen3.5 **Next Fit** 序列装箱、多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）<br>
   **TE 多模态数据 packing**：实现 **BFD（Best Fit Decreasing）/ Next Fit** 装箱算法
 
