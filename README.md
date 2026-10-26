@@ -1,5 +1,7 @@
 ### 👋 Welcome！我是陈嘉伟
 
+<img align="right" src="assets/sleepy-cat.jpg" alt="熟睡的橘白小猫" width="200" />
+
 > **AI Infra / 大模型分布式训推系统 / 显存与负载调度优化**
 > 
 > 🎓 2023-2027 · 北京科技大学 · 信息安全本科 · 雅思6.5(6)  
