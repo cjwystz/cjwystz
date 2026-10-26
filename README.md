@@ -76,6 +76,7 @@
 ### 🏆 Honors & Awards
 
 - 🎓 **紫玉基金特等奖学金** · 2025–2026 学年
+- 🎓 **人民三等奖学金** · 2024–2025 学年
 - 🥇 全国冶金科技大赛 · **全国一等奖**
 - 🥈 ASC 国际超级计算机竞赛（ASC Student Supercomputer Challenge）· **全国二等奖**
 - 🌍 美国大学生数学建模竞赛（MCM/ICM）· **Honorable Mention**
