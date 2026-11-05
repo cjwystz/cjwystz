@@ -22,6 +22,12 @@
 
 ### 📄 Research & Publication
 
+- **自适应时间分段的长视频帧选择（APS）**
+
+  - 🎯 **CVPR 2027** · **Under Review** · 📎 [OpenReview](https://openreview.net/forum?id=C3ojLTTB5F)
+  - 提出免训练的 Adaptive Partitioning-Based Frame Selection（APS）框架，通过复杂度正则化拟合与动态规划，联合优化时间分段边界及局部模型；结合查询相关性与时间跨度分配帧预算。
+  - 在 Video-MME、MLVU 和 LongVideoBench 上评估，验证方法在不同视觉语言模型骨干、模型规模及相似度表征下的有效性与泛化能力。
+
 - **通用大模型训练的异构建模 Packing 调度策略** `清程极智 × 北京科技大学`
 
   - 🎯 **MLSys 2027** · **Co-first Author** · 预计 2026.12 投稿
