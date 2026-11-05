@@ -6,7 +6,7 @@
 > 
 > 🎓 2023-2027 · 北京科技大学 · 信息安全本科 · 雅思6.5(6)  
 > 💼 清程极智 AI Infra 实习生 · FlagOS / Hugging Face PEFT 开源贡献者  
-> 🖥️ 昇腾 910C / 沐曦 C550 / 真武 810E 千卡训推经验  
+> 🖥️ 昇腾 910B3 / 910C · 沐曦 C550 · 真武 810E 等异构算力训推经验；千卡级训练与 Atlas 900 A3 SuperPoD 超节点实践  
 > 🏪 漳州城区多个旺铺招租(个人房源，非中介)，福建/广东/浙江接厨房设备与承包工程需求，欢迎联系🛰️_cjwystz
 >
 > 个人主页 https://cjwystz.github.io
@@ -76,7 +76,9 @@
 | ---- | ---------------------------------------------------- |
 | 训练系统 | Megatron-LM · MindSpeed · FlagScale · FSDP · PyTorch |
 | 推理系统 | vLLM · vLLM-Ascend · SGLang                          |
-| 硬件平台 | 华为昇腾 910C · 沐曦 C550 · 阿里真武 810E · NVIDIA H20/A800/A100   |
+| 国产 GPU / NPU | 华为昇腾 Ascend 910B3 / 910C · 沐曦 MetaX C550 · 天数智芯 BI-V150 · 阿里真武 810E |
+| 超节点平台 | 华为 Atlas 900 A3 SuperPoD（昇腾 910C 超节点） |
+| NVIDIA GPU | H20 · A800 · A100 |
 | 工具环境 | 性能 Profiler · Docker · AI 编程提效           |
 
 ---
