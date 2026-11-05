@@ -6,7 +6,7 @@
 > 
 > 🎓 2023-2027 · 北京科技大学 · 信息安全本科 · 雅思6.5(6)  
 > 💼 清程极智 AI Infra 实习生 · FlagOS / Hugging Face PEFT 开源贡献者  
-> 🖥️ 昇腾 910B3 / 910C · 沐曦 C550 · 真武 810E 等异构算力训推经验；千卡级训练与 Atlas 900 A3 SuperPoD 超节点实践  
+> 🖥️ 昇腾 910B3 / 910C · 沐曦 C550 · 真武 810E千卡级 异构算力训推经验；千卡级训练Atlas 900 A3 SuperPoD 超节点实践  
 > 🏪 漳州城区多个旺铺招租(个人房源，非中介)，福建/广东/浙江接厨房设备与承包工程需求，欢迎联系🛰️_cjwystz
 >
 > 个人主页 https://cjwystz.github.io
@@ -22,7 +22,7 @@
 
 ### 📄 Research & Publication
 
-- **自适应时间分段的长视频帧选择（APS）** `上海交通大学 × 清华大学 × 北京科技大学`
+- **自适应时间分段的长视频帧选择（APS）** `浙江大学 × 清华大学 × 北京科技大学`
 
   - 🎯 **CVPR 2027** · Co-author · **Under Review** · 📎 [OpenReview](https://openreview.net/forum?id=C3ojLTTB5F)
   - 提出免训练的 Adaptive Partitioning-Based Frame Selection（APS）框架，通过复杂度正则化拟合与动态规划，联合优化时间分段边界及局部模型；结合查询相关性与时间跨度分配帧预算。
