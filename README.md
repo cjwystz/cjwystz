@@ -22,7 +22,7 @@
 
 ### 📄 Research & Publication
 
-- **自适应时间分段的长视频帧选择（APS）**
+- **自适应时间分段的长视频帧选择（APS）** `上海交通大学 × 清华大学 × 北京科技大学`
 
   - 🎯 **CVPR 2027** · Co-author · **Under Review** · 📎 [OpenReview](https://openreview.net/forum?id=C3ojLTTB5F)
   - 提出免训练的 Adaptive Partitioning-Based Frame Selection（APS）框架，通过复杂度正则化拟合与动态规划，联合优化时间分段边界及局部模型；结合查询相关性与时间跨度分配帧预算。
