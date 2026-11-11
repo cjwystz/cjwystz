@@ -51,6 +51,12 @@
   - 提出 RAG 前置 Prompt 优化阶段的文生图增强框架：不改T2I 模型、单次迭代，解决小参数 LLM 面对隐式知识的 Prompt 失配问题。
   - 设计 Tavily + BGE-m3 + ChromaDB 混合检索的两阶段 Pipeline，基于ollama + ComfyUI落地，评分较仅 LLM 改写平均提升 **114%**。
 
+- **Direction Matters: Local Feature Probes for Cross-Generator Image Detection（RER）**
+
+  - 🎯 **Co-first Author** · **即将投稿（Submission forthcoming）**
+  - 研究冻结视觉特征上的局部定向探针，通过真实特征附近的边界监督，提升对未见生成器所生成图像的检测能力。
+  - 在 GenImage 七个未见生成器子集上，同损失、同设备的三种子对照较同损失 SimLBR 的平均准确率提升 **2.95 个百分点**；完成 WildRF 外域评估、误报分析与机制消融。
+
 ---
 
 ### 💻 Contributions
