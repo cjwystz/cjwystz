@@ -41,12 +41,6 @@
 
 ### 💻 Contributions
 
-**代表 PR**
-
-- **vLLM · Open**：缓存 FlashInfer 的 KV 写入视图，减少重复构造。[PR #66972](https://github.com/vllm-project/vllm/pull/66972)
-- **TransformerEngine-FL · 已合并**：修复沐曦 TP overlap 与旧版 Userbuffers 的兼容问题。[PR #139](https://github.com/flagos-ai/TransformerEngine-FL/pull/139)
-- **Hugging Face PEFT · 已合并**：修复 LoRA-FA 优化器 `step(closure)` 的梯度上下文，并补回归测试。[PR #3966](https://github.com/huggingface/peft/pull/3966)
-
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
   **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复<br>
@@ -54,7 +48,12 @@
   **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）<br>
   **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）<br>
   **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）<br>
+  **TP overlap**：沐曦平台通信与计算重叠的适配及修复（[PR #139](https://github.com/flagos-ai/TransformerEngine-FL/pull/139)）<br>
   **FlagScale 多模态 packing**：实现 **BFD / Next Fit** 装箱算法；支持多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）<br>
+
+- **[Hugging Face](https://github.com/huggingface/peft)**
+
+  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试（[PR #3966](https://github.com/huggingface/peft/pull/3966)）
 
 - **zkLLM：面向大语言模型的零知识证明系统可视化**
 
