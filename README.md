@@ -39,6 +39,30 @@
 
 ---
 
+### 💻 Contributions
+
+**代表 PR**
+
+- **vLLM · Open**：缓存 FlashInfer 的 KV 写入视图，减少重复构造。[PR #66972](https://github.com/vllm-project/vllm/pull/66972)
+- **TransformerEngine-FL · 已合并**：修复沐曦 TP overlap 与旧版 Userbuffers 的兼容问题。[PR #139](https://github.com/flagos-ai/TransformerEngine-FL/pull/139)
+- **Hugging Face PEFT · 已合并**：修复 LoRA-FA 优化器 `step(closure)` 的梯度上下文，并补回归测试。[PR #3966](https://github.com/huggingface/peft/pull/3966)
+
+- **[FlagOS](https://github.com/FlagOpen/FlagScale)**
+
+  **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复<br>
+  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构与加载路径适配（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)）<br>
+  **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）<br>
+  **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）<br>
+  **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）<br>
+  **FlagScale 多模态 packing**：实现 **BFD / Next Fit** 装箱算法；支持多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）<br>
+
+- **zkLLM：面向大语言模型的零知识证明系统可视化**
+
+  - 复现 CCS 2024 zkLLM 开源框架，完成框架适配并搭建推理可信审计可视化系统
+  - 📜 国家计算机软件著作权：2025SR0617553
+
+---
+
 ### 📄 Research & Publication
 
 - **基于局部定向特征探针的跨生成器图像检测（RER）** `北京科技大学 × 中山大学`
@@ -69,29 +93,6 @@
   - 🎯 **WISE 2025 Workshop** · Co-author · ✅ Published · 📎 [GitHub](https://github.com/Dadada66666/T2I)
   - 提出 RAG 前置 Prompt 优化阶段的文生图增强框架：不改T2I 模型、单次迭代，解决小参数 LLM 面对隐式知识的 Prompt 失配问题。
   - 设计 Tavily + BGE-m3 + ChromaDB 混合检索的两阶段 Pipeline，基于ollama + ComfyUI落地，评分较仅 LLM 改写平均提升 **114%**。
-
----
-
-### 💻 Contributions
-
-- **[FlagOS](https://github.com/FlagOpen/FlagScale)**
-
-  **FlagScale / Megatron-FL / TransformerEngine-FL**：沐曦硬件适配、训练框架优化与 Bug 修复<br>
-  **TransformerEngine-FL**：MetaX TE 2.13+ 包结构与加载路径适配（[PR #128](https://github.com/flagos-ai/TransformerEngine-FL/pull/128)）<br>
-  **FlagScale**：修复 MetaX 参数检查与 Profiler 相关问题（[PR #1296](https://github.com/flagos-ai/FlagScale/pull/1296)）<br>
-  **Megatron-LM-FL**：修复 MetaX JIT/Dynamo 显存泄漏问题（[PR #185](https://github.com/flagos-ai/Megatron-LM-FL/pull/185)）<br>
-  **Chunk CE**：实现分块词表并行交叉熵，降低训练临时显存开销（[PR #126](https://github.com/flagos-ai/Megatron-LM-FL/pull/126)）<br>
-  **TP overlap**：沐曦平台通信与计算重叠的适配及修复（[PR #139](https://github.com/flagos-ai/TransformerEngine-FL/pull/139)）<br>
-  **FlagScale 多模态 packing**：实现 **BFD / Next Fit** 装箱算法；支持多模态对齐与独立位置编码（[PR #1308](https://github.com/flagos-ai/FlagScale/pull/1308)）<br>
-
-- **[Hugging Face](https://github.com/huggingface/peft)**
-
-  **PEFT / LoRA-FA**：优化器 `step(closure)` 梯度上下文修复与回归测试（[PR #3966](https://github.com/huggingface/peft/pull/3966)）
-
-- **zkLLM：面向大语言模型的零知识证明系统可视化**
-
-  - 复现 CCS 2024 zkLLM 开源框架，完成框架适配并搭建推理可信审计可视化系统
-  - 📜 国家计算机软件著作权：2025SR0617553
 
 ---
 
