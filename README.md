@@ -26,20 +26,11 @@
 
 ---
 
-### ⚡ 推理优化
-
-**MiniCPM5-2B 国产 GPU 推理优化** · FlagOS S2 赛道二 · 队长
-
-| 平台与版本 | 4K 吞吐加速比 | 16K 吞吐加速比 |
-| --- | ---: | ---: |
-| 天数智芯 BI-V150（round-060） | **2.43×** | **4.34×** |
-| 沐曦 MetaX C550（final） | **2.5×** | **1.6×** |
-
-加速比均相对各自平台的基线。
-
----
-
 ### 💻 Contributions
+
+- **MiniCPM5-2B 国产 GPU 推理优化** · FlagOS S2 赛道二队长
+
+  天数智芯 BI-V150（round-060）的 4K / 16K 吞吐加速比为 **2.43× / 4.34×**，沐曦 MetaX C550（final）为 **2.5× / 1.6×**，均相对各自平台基线。
 
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
