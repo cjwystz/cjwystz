@@ -26,7 +26,7 @@
 
 ---
 
-### 💻 Contributions
+### 🚀 Selected Projects
 
 - **SuperTrain · 昇腾超节点千亿 MoE 训练优化** · 清程极智
 
@@ -35,6 +35,10 @@
 - **MiniCPM5-2B 国产 GPU 推理优化** · FlagOS S2 赛道二队长
 
   天数智芯 BI-V150（round-060）的 4K / 16K 吞吐加速比为 **2.43× / 4.34×**，沐曦 MetaX C550（final）为 **2.5× / 1.6×**，均相对各自平台基线。
+
+---
+
+### 💻 Contributions
 
 - **[FlagOS](https://github.com/FlagOpen/FlagScale)**
 
