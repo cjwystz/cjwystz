@@ -35,8 +35,8 @@
 
 - **FlagOS · 沐曦 C550 预训练系统优化** · 清程极智
   - **工作内容** · 在沐曦 MetaX C550 上适配并优化 FlagOS 预训练系统，推进 Qwen、DeepSeek、GLM 系列的预训练优化
-  - **Qwen3.5-27B** · C550 上的 MFU 达到同模型 NVIDIA H100 基线的 **92% 以上**
-  - **Qwen3.5-35B-A3B** · C550 上的 MFU 目前达到同模型 NVIDIA H100 基线的 **约 80%**
+  - **Qwen3.5-27B** · 4节点 C550 上的 MFU 达到同模型 NVIDIA H100 基线的 **92% 以上**
+  - **Qwen3.5-35B-A3B** · 8节点 C550 上的 MFU 目前达到同模型 NVIDIA H100 基线的 **约 80%**
 
 - **国产 GPU 推理优化** · FlagOS S2 赛道二队长
   - **模型** · MiniCPM5-2B
